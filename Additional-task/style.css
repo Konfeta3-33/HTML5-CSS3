@@ -1,0 +1,43 @@
+.container {
+    position: relative;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    outline: 1px solid black;
+    position: absolute;
+}
+
+.one {
+    background-color: yellow;
+}
+
+.two {
+    background-color: bisque;
+    top: 50px;
+    left: 50px;
+}
+
+.three {
+    background-color: orange;
+    top: 100px;
+    left: 100px;
+    
+}
+
+.four {
+    background-color: red;
+    top: 150px;
+    left: 150px;
+}
+
+.five {
+    background-color: green;
+    top: 200px;
+    left: 200px;
+}
+
+.card:hover {
+    z-index: 2;
+}
