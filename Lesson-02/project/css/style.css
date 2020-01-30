@@ -141,7 +141,11 @@ body {
 }
 
 .dignity-item-preview::-webkit-details-marker {
-    display: none
+    display: none;  
+}
+
+.dignity-item-preview {
+    list-style: none;
 }
 
 .dignity-item-preview,
@@ -213,6 +217,7 @@ details[open] summary:before {
     margin: 0 15px 0 0;
     width: 200px;
     height: 150px;
+    flex-shrink: 0;
 }
 
 .screenshots-caption {
@@ -504,6 +509,10 @@ details[open] summary:before {
     position: relative;
     margin: 0 0 20px 0;
     padding: 0 0 0 31px;
+}
+
+.footer-social-link:hover {
+    color: #0098FA;
 }
 
 .footer-social-link::before {
