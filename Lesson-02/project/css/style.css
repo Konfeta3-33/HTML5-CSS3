@@ -388,8 +388,8 @@ details[open] summary:before {
     background-color: #ffffff;
     text-align: center;
     border-radius: 5px;
-    margin: 0 20px 20px 20px;
-    /* 0 auto 20px auto*/
+    border: 1px solid #ffffff;
+    margin: 0 auto 20px auto;
     padding: 14px 0;
     color: #445161;
     font-size: 18px;
@@ -400,12 +400,14 @@ details[open] summary:before {
     hyphens: auto;
 }
 
-.button:hover {
+.button:hover,
+.footer-form input[type="submit"]:hover {
     background-color: #445161;
     color: #ffffff;
 }
 
-.button:active {
+.button:active,
+.footer-form input[type="submit"]:active {
     background-color: #ffffff;
     color: #445161;
 }
@@ -414,7 +416,6 @@ details[open] summary:before {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /*    min-height: 535px;*/
     background-color: #445162;
 }
 
@@ -454,9 +455,8 @@ details[open] summary:before {
 .footer-form input[type="text"]:hover,
 .footer-form input[type="email"]:hover,
 .footer-form textarea:hover {
-    border: 2px solid green;
+    border: 2px solid #0098FA;
     border-radius: 5px;
-    /*    background-color: #dddddd;*/
 }
 
 .footer-form input[placeholder],
@@ -482,6 +482,8 @@ details[open] summary:before {
     line-height: 16px;
     text-transform: uppercase;
     border-radius: 5px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
 }
 
 .footer-social {
@@ -502,7 +504,6 @@ details[open] summary:before {
     position: relative;
     margin: 0 0 20px 0;
     padding: 0 0 0 31px;
-    vertical-align: bottom;
 }
 
 .footer-social-link::before {
