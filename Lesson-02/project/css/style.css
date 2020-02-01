@@ -403,6 +403,7 @@ details[open] summary:before {
     text-transform: uppercase;
     /*перенос слов на др. строчку при помощи "-" */
     hyphens: auto;
+    outline: none;
 }
 
 .button:hover,
@@ -415,6 +416,7 @@ details[open] summary:before {
 .footer-form input[type="submit"]:active {
     background-color: #ffffff;
     color: #445161;
+    outline: none;
 }
 
 .footer {
@@ -489,6 +491,7 @@ details[open] summary:before {
     border-radius: 5px;
     border: 1px solid #ffffff;
     background-color: #ffffff;
+    outline: none;
 }
 
 .footer-social {
